@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Memotest</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--Barra de Título-->
+    <h1 class="container-fluid text-center text-light p-3 m-2 bg-secondary">
+      Memotest
+    </h1>
+
+    <!--Tablero-->
+    <div class="container-sm bg-dark p-3 mt-4" id="contenedor">
+      <button
+        type="button"
+        class="row-4 btn btn-lg btn-success p-1"
+        id="boton-empezar"
+      >
+        Empezar
+      </button>
+      <button
+        type="reset"
+        class="row-4 btn btn-lg btn-outline-danger p-1 border-2"
+        id="boton-reiniciar"
+      >
+        Reiniciar
+      </button>
+
+      <div class="container-sm">
+        <p class="h6 mt-3 p-2 text-center text-light border border-2 border-light" id="info-jugador">
+          ¡Presione el botón <span class="bg-success border rounded">Empezar</span> para jugar!
+        </p>
+      </div>
+
+      <div class="container" id="tablero">
+        <div class="row mt-5 p-1">
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Cuti.jpeg"
+              alt="cuti"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/De Paul.jpeg"
+              alt="de-paul"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Cuti.jpeg"
+              alt="cuti"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/De Paul.jpeg"
+              alt="de-paul"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+        </div>
+        <div class="row p-1">
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Di Maria.jpeg"
+              alt="di-maria"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Di Maria.jpeg"
+              alt="di-maria"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Emiliano Martenez.jpeg"
+              alt="dibu"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Emiliano Martenez.jpeg"
+              alt="dibu"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+        </div>
+        <div class="row p-1">
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Enzo Fernandez.jpeg"
+              alt="enzo"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Enzo Fernandez.jpeg"
+              alt="enzo"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Julian Alvarez.jpeg"
+              alt="julian"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+          <div
+            class="col cuadro border border-2 border-light ms-1 bg-secondary"
+          >
+            <img
+              src="images/Julian Alvarez.jpeg"
+              alt="julian"
+              class="object-fit-contain img-fluid w-100 h-100 oculto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

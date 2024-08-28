@@ -1,0 +1,19 @@
+.cuadro {
+  height: 100px;
+  width: 2px;
+  cursor: pointer;
+}
+
+.oculto {
+  display: none;
+  width: 288.8px;
+  height: 510px;
+}
+
+.carta-jugada {
+  pointer-events: none;
+  background-color: rgb(17, 17, 17);
+  opacity: .5;
+  cursor: not-allowed;
+}
+
