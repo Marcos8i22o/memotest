@@ -1,14 +1,73 @@
-## 1. Clona el repositorio
-git clone https://github.com/tu-usuario/nombre-del-repo.git
+# 🃏 Memotest Game
 
-## 2. Navega al directorio del proyecto
-cd nombre-del-repo
 
-## 3. Instala las dependencias
-npm install # o yarn install
+---
 
-## 4. Inicia la aplicación
-npm start # o yarn dev
+## 🚀 Descripción del Proyecto
 
-![Memotest](https://github.com/user-attachments/assets/bbf562dc-5677-4c18-a34e-a867b5437074)
+Este proyecto es una implementación clásica del juego "Memotest" (también conocido como juego de memoria o pares). El objetivo es encontrar todos los pares de cartas idénticas volteando dos cartas a la vez. Es una aplicación web interactiva que demuestra el uso de HTML, CSS y JavaScript puro para crear una experiencia de juego dinámica y responsiva.
 
+---
+
+## ✨ Características Principales
+
+*   **Mecánica de Juego Clásica:** Voltea cartas, encuentra pares y vacía el tablero.
+*   **Contador de Movimientos:** Sigue la cantidad de intentos realizados para completar el juego.
+*   **Diseño Responsivo:** Adaptable a diferentes tamaños de pantalla, desde dispositivos móviles hasta escritorios.
+*   **Reset de Juego:** Opción para reiniciar la partida y jugar de nuevo.
+
+---
+
+## 💻 Tecnologías Utilizadas
+
+*   **HTML5:** Estructura semántica del juego.
+*   **CSS3:** Estilización, layout con `CSS Grid` y `Flexbox`
+*   **JavaScript (Vanilla JS / ES6+):** Lógica del juego, manipulación del DOM, gestión de eventos y estado.
+
+---
+
+## 🛠️ Cómo Iniciar el Proyecto Localmente
+
+No se requieren dependencias de Node.js ni herramientas de compilación. Simplemente clona el repositorio y abre el archivo `index.html` en tu navegador.
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone https://github.com/Marcos8i22o/memotest.git
+    ```
+2.  **Navega al directorio del proyecto:**
+    ```bash
+    cd memotest
+    ```
+3.  **Abre `index.html`:**
+    Simplemente abre el archivo `index.html` en tu navegador web preferido (haciendo doble clic o arrastrándolo a la ventana del navegador).
+
+---
+
+## 🌐 Demostración en Vivo (Live Demo)
+
+Para ver el juego en acción sin clonar el repositorio, puedes acceder a la demostración en vivo aquí:
+**[¡Agrega aquí el enlace a tu proyecto desplegado! Recomendado: GitHub Pages, Netlify o Vercel]**
+*Ejemplo: `https://marcos8i22o.github.io/memotest/` (si lo subes a GitHub Pages)*
+
+---
+
+## 🧠 Lo que Aprendí / Desafíos Superados
+
+Durante el desarrollo de este proyecto, fortalecí mis habilidades en:
+
+*   **Manipulación del DOM:** Creación y modificación dinámica de elementos HTML con JavaScript.
+*   **Gestión de Eventos:** Manejo de clics de usuario para interactuar con las cartas.
+*   **Lógica de Juego:** Implementación de algoritmos para el barajado de cartas, la detección de pares y el control del flujo del juego.
+*   **Diseño Responsivo:** Asegurar que el juego se vea y funcione bien en dispositivos de diferentes tamaños, utilizando media queries y técnicas de diseño adaptable.
+*   **Animaciones CSS:** Crear transiciones suaves para mejorar la experiencia visual del usuario al voltear las cartas.
+*   **Gestión de Estado Básico:** Cómo mantener el control de variables clave como movimientos y tiempo de juego.
+
+---
+
+## 📞 Contacto
+
+*   **LinkedIn:** [Tu perfil de LinkedIn]
+*   **Email:** marcos.jinno@gmail.com
+*   **GitHub:** github.com/Marcos8i22o
+
+---
