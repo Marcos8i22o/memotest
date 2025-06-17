@@ -1,5 +1,6 @@
-# 🃏 Memotest Game
+# 🃏 Memotest 
 
+![Memotest](https://github.com/user-attachments/assets/11f9ae7b-4040-44f8-a7f3-bbeaf15450cc)
 
 ---
 
@@ -46,8 +47,7 @@ No se requieren dependencias de Node.js ni herramientas de compilación. Simplem
 ## 🌐 Demostración en Vivo (Live Demo)
 
 Para ver el juego en acción sin clonar el repositorio, puedes acceder a la demostración en vivo aquí:
-**[¡Agrega aquí el enlace a tu proyecto desplegado! Recomendado: GitHub Pages, Netlify o Vercel]**
-*Ejemplo: `https://marcos8i22o.github.io/memotest/` (si lo subes a GitHub Pages)*
+https://marcos8i22o.github.io/memotest/
 
 ---
 
@@ -58,15 +58,14 @@ Durante el desarrollo de este proyecto, fortalecí mis habilidades en:
 *   **Manipulación del DOM:** Creación y modificación dinámica de elementos HTML con JavaScript.
 *   **Gestión de Eventos:** Manejo de clics de usuario para interactuar con las cartas.
 *   **Lógica de Juego:** Implementación de algoritmos para el barajado de cartas, la detección de pares y el control del flujo del juego.
-*   **Diseño Responsivo:** Asegurar que el juego se vea y funcione bien en dispositivos de diferentes tamaños, utilizando media queries y técnicas de diseño adaptable.
-*   **Animaciones CSS:** Crear transiciones suaves para mejorar la experiencia visual del usuario al voltear las cartas.
-*   **Gestión de Estado Básico:** Cómo mantener el control de variables clave como movimientos y tiempo de juego.
+*   **Diseño Responsivo:** Asegurar que el juego se vea y funcione bien en dispositivos de diferentes tamaños, utilizando técnicas de diseño adaptable.
+
 
 ---
 
 ## 📞 Contacto
 
-*   **LinkedIn:** [Tu perfil de LinkedIn]
+*   **LinkedIn:** https://www.linkedin.com/in/marcos-jinno/
 *   **Email:** marcos.jinno@gmail.com
 *   **GitHub:** github.com/Marcos8i22o
 
